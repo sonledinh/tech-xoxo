@@ -1,0 +1,194 @@
+*{margin: 0; padding: 0}
+@import "fonts.scss";
+$font: 'FontAwesome'; 
+$black: #000000;
+$yellow: #F05623;
+$red :#fb0404;
+$green: #1BDAC9;
+body {
+    box-sizing: border-box;
+    color: #484848;
+    padding: 0 !important;  
+    font-size: 16px;  
+    line-height: 1.6;
+    transition: .3s all; 
+    position: relative;
+    font-weight: normal;
+    font-family: 'Inter'; 
+    background: #fff;
+    color: #000000;
+    overflow-x: hidden;
+    &.active {
+        overflow: hidden;
+    }
+    h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
+        text-decoration: none !important;        
+        transition: .3s all;   
+        margin-bottom: 0;  
+        outline: none !important;    
+    }    
+    a { 
+        transition: .3s all !important; 
+        color: #000000;   
+        &:hover {
+            color: $green;       
+        }  
+    } 
+    ul {    
+    	padding: 0;   
+    	margin: 0;  
+    }   
+    input, button {    
+    	outline: none !important; 
+    	box-shadow: none; 
+    	transition: .3s all; 
+    }
+    .slick-slide {
+    	height: auto;  
+        img {
+            display: inline;
+        }
+    }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+    } 
+    img {
+        max-width: 100%;
+    }
+    .slick-slider {
+        margin-bottom: 0;
+    }
+    @media (max-width: 1023px) {
+        font-size: 14px;
+    }
+}
+
+.btn-main {
+    a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 186px;
+        border-radius: 30px;
+        color: #fff;
+        background: $green;
+        height: 51px;
+        font-weight: 700;
+        border: 1px solid $green;
+        &:hover {
+            background: #fff;
+            color: $green;
+        }
+    }
+}
+
+
+.head-top {
+    ul {
+        list-style: none;
+    }
+    .social {
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                border-right: 1px solid #22344133;
+                &:first-child {
+                    border-left: 1px solid #22344133;
+                }
+            }
+        }
+        a {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+        }
+    }
+}
+.head-top-right {
+    font-size: 12px;
+    font-weight: 700;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        li {
+            position: relative;
+            padding-right: 22px;
+            margin-right: 22px;
+            border-right: 1px solid rgba(34, 52, 65, 0.5);
+            &:last-child {
+                margin-right: 0;
+                padding-right: 0;
+                border-right: 0;
+            }
+        }
+    }
+    a {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 10px;
+        }
+    }
+}
+.contnt-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu {
+    padding: 24px 0;
+    background: #0B2C44;
+    box-shadow: 0px 0px 22px rgba(16, 37, 127, 0.11);
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    a {
+        color: #fff;
+    }
+    .left {
+        ul {
+            li {
+                margin-right: 34px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .right {
+        font-size: 14px;
+        li {
+            margin-right: 22px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .head-user {
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            img {
+                margin-right: 10px;
+            }
+        }
+        .btn-head {
+            font-weight: 400;
+            background: $green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 41px;
+            padding: 0 17px;
+            border-radius: 5px;
+            border: 2px solid $green;
+            &:hover {
+                background: #fff;
+            }
+        }
+    }
+}

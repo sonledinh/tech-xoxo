@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Light.woff2") format("woff2"), url("../fonts/inter/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-ExtraLight.woff2") format("woff2"), url("../fonts/inter/Inter-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/inter/Inter-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Regular.woff2") format("woff2"), url("../fonts/inter/Inter-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Medium.woff2") format("woff2"), url("../fonts/inter/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/inter/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Bold.woff2") format("woff2"), url("../fonts/inter/Inter-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Thin.woff2") format("woff2"), url("../fonts/inter/Inter-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Inter';
+  src: url("../fonts/inter/Inter-Black.woff2") format("woff2"), url("../fonts/inter/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+body {
+  box-sizing: border-box;
+  color: #484848;
+  padding: 0 !important;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: .3s all;
+  position: relative;
+  font-weight: normal;
+  font-family: 'Inter';
+  background: #fff;
+  color: #000000;
+  overflow-x: hidden; }
+  body.active {
+    overflow: hidden; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body ul, body li, body .card, body a {
+    text-decoration: none !important;
+    transition: .3s all;
+    margin-bottom: 0;
+    outline: none !important; }
+  body a {
+    transition: .3s all !important;
+    color: #000000; }
+    body a:hover {
+      color: #1BDAC9; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+  body input, body button {
+    outline: none !important;
+    box-shadow: none;
+    transition: .3s all; }
+  body .slick-slide {
+    height: auto; }
+    body .slick-slide img {
+      display: inline; }
+  body .container {
+    width: 100%;
+    max-width: 1200px; }
+  body img {
+    max-width: 100%; }
+  body .slick-slider {
+    margin-bottom: 0; }
+  @media (max-width: 1023px) {
+    body {
+      font-size: 14px; } }
+
+.btn-main a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 186px;
+  border-radius: 30px;
+  color: #fff;
+  background: #1BDAC9;
+  height: 51px;
+  font-weight: 700;
+  border: 1px solid #1BDAC9; }
+  .btn-main a:hover {
+    background: #fff;
+    color: #1BDAC9; }
+
+.head-top ul {
+  list-style: none; }
+.head-top .social ul {
+  display: flex;
+  align-items: center; }
+  .head-top .social ul li {
+    border-right: 1px solid #22344133; }
+    .head-top .social ul li:first-child {
+      border-left: 1px solid #22344133; }
+.head-top .social a {
+  display: flex;
+  align-items: center;
+  padding: 12px; }
+
+.head-top-right {
+  font-size: 12px;
+  font-weight: 700; }
+  .head-top-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: end; }
+    .head-top-right ul li {
+      position: relative;
+      padding-right: 22px;
+      margin-right: 22px;
+      border-right: 1px solid rgba(34, 52, 65, 0.5); }
+      .head-top-right ul li:last-child {
+        margin-right: 0;
+        padding-right: 0;
+        border-right: 0; }
+  .head-top-right a {
+    display: flex;
+    align-items: center; }
+    .head-top-right a img {
+      margin-right: 10px; }
+
+.contnt-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.header-menu {
+  padding: 24px 0;
+  background: #0B2C44;
+  box-shadow: 0px 0px 22px rgba(16, 37, 127, 0.11); }
+  .header-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center; }
+  .header-menu a {
+    color: #fff; }
+  .header-menu .left ul li {
+    margin-right: 34px; }
+    .header-menu .left ul li:last-child {
+      margin-right: 0; }
+  .header-menu .right {
+    font-size: 14px; }
+    .header-menu .right li {
+      margin-right: 22px; }
+      .header-menu .right li:last-child {
+        margin-right: 0; }
+    .header-menu .right .head-user {
+      font-weight: 500;
+      display: flex;
+      align-items: center; }
+      .header-menu .right .head-user img {
+        margin-right: 10px; }
+    .header-menu .right .btn-head {
+      font-weight: 400;
+      background: #1BDAC9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 41px;
+      padding: 0 17px;
+      border-radius: 5px;
+      border: 2px solid #1BDAC9; }
+      .header-menu .right .btn-head:hover {
+        background: #fff; }
+
+.box-banner {
+  position: relative; }
+
+.item-banner {
+  position: relative; }
+  .item-banner .caption-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; }
+    .item-banner .caption-banner h4 {
+      font-size: 26px;
+      font-weight: 600; }
+    .item-banner .caption-banner h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: initial;
+      padding: 25px 0 15px 0; }
+      .item-banner .caption-banner h2 span {
+        color: #1BDAC9; }
+    .item-banner .caption-banner .desc {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 60px; }
+
+@keyframes myscale {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.1); }
+  100% {
+    transform: scale(1); } }
+@keyframes shine {
+  0% {
+    background-position: -150px; }
+  40% {
+    background-position: 500px; }
+  100% {
+    background-position: 650px; } }
+
+/*# sourceMappingURL=style.css.map */
