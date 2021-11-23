@@ -1,0 +1,256 @@
+
+.news-cate {
+	padding: 0 0 70px 0;
+}
+.item-news-cate {
+	overflow: hidden;
+	border-radius: 12px;
+	box-shadow: 0px 0px 28px rgba(34, 52, 65, 0.08);
+	.info {
+		padding: 20px 20px 30px 20px;
+		.date {
+			font-size: 14px;
+			color: #858585;
+		}
+	}
+	h3 {
+		a {
+			font-size: 18px;
+			font-weight: 600;
+			display: block;
+			padding: 12px 0;
+		}
+	}
+	.desc {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.view-more {
+		a {
+			font-weight: 500;
+		}
+	}
+}
+.list-news-cate {
+	.col-md-4 {
+		margin-bottom: 30px;
+	}
+}
+.view-all {
+	a {
+		display: inline-flex;
+	    background: #223441;
+	    color: #fff;
+	    border-radius: 30px;
+	    height: 62px;
+	    align-items: center;
+	    padding: 0 60px;
+	    font-size: 20px;
+	    img {
+	    	margin-right: 12px;
+	    }
+	}
+}
+.item-new-small {
+	border: 1px solid rgba(34, 52, 65, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    &:last-child {
+    	margin-bottom: 0;
+    }
+    .info {
+    	padding: 10px 20px 20px 20px;
+    	.date {
+    		color: #858585;
+		    font-size: 14px;
+		    margin-bottom: 4px;
+    	}
+    	a {
+    		font-size: 15px;
+		    font-weight: 700;
+		    display: block;
+		    line-height: 1.4;
+		    color: #393939;
+		    &:hover {
+		    	color: $green;
+		    }
+    	}
+    }
+}
+.news-big {
+	border: 1px solid rgba(34, 52, 65, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    overflow: hidden;
+    .info {
+    	padding: 16px 28px;
+    	font-size: 14px;
+    	a {
+    		display: block;
+		    font-size: 36px;
+		    font-weight: 700;
+		    color: #272D4E;
+		    padding: 10px 0;
+    	}
+    }
+    .date {
+    	color: #858585;
+    }
+}
+.news-top {
+	margin-bottom: 36px;
+	padding-bottom: 36px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bread-cate {
+	padding: 22px 0;
+	ul {
+		display: flex;
+		list-style: none;
+		a {
+			color: #ACACAC;
+			font-weight: 500;
+		}
+		li {
+			position: relative;
+			padding-right: 10px;
+			margin-right: 10px;
+			&:after {
+				content: "/";
+				position: absolute;
+				top: 0;
+				right: -3px;
+				color: #ACACAC;
+			}
+			&:last-child {
+				padding-right: 0;
+				margin-right: 0;
+				&:after {
+					display: none;
+				}
+				a {
+					color: #272D4E;
+				}
+			}
+		}
+	}
+}
+.detail {
+	padding: 0 15px;
+}
+.detail-top {
+	margin-bottom: 15px;
+	.date {
+		color: #858585;
+	    font-size: 14px;
+	    padding: 30px 0 20px 0;
+	}
+	h1 {
+		line-height: initial;
+	    color: #272D4E;
+	    font-size: 28px;
+	    font-weight: 700;
+	}
+}
+.content-detail {
+	img {
+		max-width: 100%;
+		height: auto !important;
+	}
+	ul {
+		padding-left: 18px;
+		margin-bottom: 10px;
+	}
+	p {
+		margin-bottom: 10px;
+	}
+}
+
+.other-detail {
+	padding: 60px 0;
+	.title-other {
+	    color: #272D4E;
+	    font-size: 36px;
+	    font-weight: 700;
+	    margin-bottom: 15px;
+	}
+}
+.slide-other {
+	margin: 0 -15px;
+	.item-slide {
+		padding: 10px 15px;
+	}
+}
+
+.box-contact {
+	padding: 45px 0;
+}
+.title-contact {
+    font-size: 24px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.info-form-contact {
+	.row {
+		margin: 0 -8px;
+		>div {
+			padding: 0 8px;
+		}
+	}
+	.item {
+		margin-bottom: 22px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.txt_field {
+		width: 100%;
+		height: 50px;
+		border: 1px solid #c5c5c5;
+		border-radius: 8px;
+		padding: 0 16px;
+	}
+	textarea {
+		width: 100%;
+		height: 150px;
+		border: 1px solid #c5c5c5;
+		border-radius: 8px;
+		padding: 10px 16px;
+		outline: none;
+	}
+	.btn-contact {
+		height: 50px;
+	    padding: 0 57px;
+	    background: #223441;
+	    border-radius: 4px;
+	    font-size: 16px;
+	    font-weight: 500;
+	    color: #fff;
+	    border: 0;
+	    cursor: pointer;
+	}
+}
+.txt-contact {
+	max-width: 380px;
+	.desc {
+		margin-bottom: 25px;
+	}
+	ul {
+		list-style: none;
+		li {
+			margin-bottom: 16px;
+			display: flex;
+			align-items: center;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.icon {
+				flex: 0 0 28px;
+				margin-right: 8px;
+			}
+		}
+	}
+}

@@ -11,7 +11,6 @@ body {
     padding: 0 !important;  
     font-size: 16px;  
     line-height: 1.6;
-    transition: .3s all; 
     position: relative;
     font-weight: normal;
     font-family: 'Inter'; 
@@ -20,6 +19,10 @@ body {
     overflow-x: hidden;
     &.active {
         overflow: hidden;
+    }
+    &.modal-open-ov {
+        overflow: hidden;
+        padding-right: 17px;
     }
     h1, h2, h3, h4, h5, h6, p, label, ul, li, .card, a { 
         text-decoration: none !important;        

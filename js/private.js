@@ -27,8 +27,21 @@ $('.slide-less').slick({
     slidesToScroll: 1, 
     prevArrow: '', 
     nextArrow: '',
+});
+  
+$('.slide-other').slick({
+    autoplay: false,
+    arrow: false,
+    dots: true,
+    slidesToShow: 3,
+    slidesToScroll: 1, 
+    prevArrow: '', 
+    nextArrow: '',
 });  
 
+// $('.btn_regis_popup, .btn-frm-srv').click(function(event) {
+//     $('body').addClass('modal-open-ov');
+// });
 
 // jQuery(document).ready(function( $ ) {
 //   $("#menu").mmenu({
