@@ -108,7 +108,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<div class="item-numb text-center">
-							<div class=" "><span>12</span></div>
+							<div class="numb"><span>12</span></div>
 							<div class="desc">Năm Kinh nghiệm</div>
 						</div>
 					</div>

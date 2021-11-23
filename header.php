@@ -19,7 +19,7 @@
     <header>
         <div class="header-pc">
             <div class="head-top">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="social">
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="header-menu">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="contnt-head">
                         <div class="left">
                             <ul>
@@ -51,15 +51,23 @@
                                 </li>
                                 <li><a href="">Trang chủ</a></li>
                                 <li><a href="">Về chúng tôi</a></li>
-                                <li><a href="">Dịch vụ & sản phẩm</a></li>
-                                <li><a href="">Tin tức</a></li>
+                                <li>
+                                    <a href="">Dịch vụ & sản phẩm <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
+                                    <!-- <div class="submenu">
+                                        <ul>
+                                            <li><a href="">Dịch vụ của Xoxo</a></li>
+                                            <li><a href="">Sản phẩm của Xoxo</a></li>
+                                        </ul>
+                                    </div> -->
+                                </li>
+                                <li><a href="">Tin tức <img src="images/ar-menu.png" class="img-fluid" alt=""></a></li>
                                 <li><a href="">Thư viện</a></li>
                                 <li><a href="">Liên hệ</a></li>
                             </ul>
                         </div>
                         <div class="right"> 
                             <ul>
-                                <li><a href=""></a></li>
+                                <li><a href=""><a href="" class="notice-ring"><img src="images/ring.png" class="img-fluid" alt=""></a></a></li>
                                 <li><a href="" class="head-user"><img src="images/head-6.png" class="img-fluid" alt=""><span>Đăng ký / Đăng nhập</span></a></li>
                                 <li><a href="" class="btn-head">Vườn kết nối</a></li>
                             </ul>

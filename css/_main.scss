@@ -15,12 +15,16 @@
 	    align-items: center;
 	    text-align: center;
 	    color: #fff;
+	    .info {
+	    	position: relative;
+	    	top: -70px;
+	    }
 	    h4 {
 	    	font-size: 26px;
     		font-weight: 600;
 	    }
 	    h2 {
-	    	font-size: 48px;
+	    	font-size: 48px; 
 		    font-weight: 700;
 		    line-height: initial;
 		    padding: 25px 0 15px 0;
@@ -198,7 +202,7 @@
     	max-width: calc(100% / 6);
     	padding: 22px;
     }
-}
+} 
 
 .box-feedback {
 	padding: 60px 0;
@@ -221,6 +225,19 @@
     		width: 68px;
     		height: 68px;
     		border-radius: 100%;
+    	}
+    }
+    .info-fb {
+    	h5 {
+    		font-size: 15px;
+		    color: #393939;
+		    font-weight: 700;
+		    margin-bottom: 5px;
+    	}
+    	p {
+    		font-size: 14px;
+		    color: #858585;
+		    font-weight: 300;
     	}
     }
     label {
@@ -325,15 +342,46 @@
     }
     .desc {
     	padding: 25px 0;
+    	p {
+    		margin-bottom: 15px;
+    		&:last-child {
+    			margin-bottom: 0;
+    		}
+    	}
     }
     .btn-main {
     	a {
     		font-size: 16px;
     	}
     }
+    h3 {
+    	font-size: 20px;
+	    font-weight: 600;
+	    color: $green;
+	    margin-bottom: 10px;
+    }
 }
 .box-about {
 	padding: 55px 0;
+}
+
+.item-about {
+	margin-bottom: 55px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	&:nth-child(2n) {
+		.col-md-6 {
+			&:nth-child(2n) {
+				order: 1;
+			}
+		}
+		.col-md-6 {
+			&:nth-child(2n+1) {
+				order: 2;
+			}
+		}
+	}
 }
 
 .box-number {
@@ -438,4 +486,12 @@
 	    line-height: initial;
 	    padding: 24px 0;
     }
+}
+
+.service-cate {
+	padding: 15px;
+	.row {}
+	.col-md-4 {
+		padding: 15px;
+	}
 }
