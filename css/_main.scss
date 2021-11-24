@@ -2,7 +2,7 @@
 .box-banner {
 	position: relative;
 }
-.item-banner {
+.item-banner { 
     position: relative;
     .caption-banner {
     	position: absolute;
@@ -18,7 +18,7 @@
 	    .info {
 	    	position: relative;
 	    	top: -70px;
-	    }
+	    } 
 	    h4 {
 	    	font-size: 26px;
     		font-weight: 600;
@@ -269,6 +269,12 @@
 }
 .box-service {
 	padding: 60px 0;
+	position: relative;
+	.abs-srv {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
 	.title {
 		h2 {
 			color: #fff;
@@ -411,8 +417,24 @@
 }
 .box-lesson {
 	padding: 60px 0;
+	position: relative;
 }
-
+.sp-ab {
+	position: absolute;
+	pointer-events: none;
+	&.sp-abs-1 {
+		top: -30px;
+		right: 18%;
+	}
+	&.sp-abs-2 {
+		bottom: 0; 
+		left: 0;
+	}
+	&.sp-abs-3 {
+		bottom: 0;
+		right: 0;
+	}
+}
 .slide-less {
 	margin: 0 -15px;
 	.item-slide {

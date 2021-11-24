@@ -39,6 +39,21 @@ $('.slide-other').slick({
     nextArrow: '',
 });  
 
+
+$(document).ready(function(){
+    
+    $('.list-bar-linik a').click(function(){
+        var tab_id = $(this).attr('data-tab');
+
+        $('.list-bar-linik a').removeClass('active');
+        $('.tab-conotent').removeClass('active');
+
+        $(this).addClass('active');
+        $("#"+tab_id).addClass('active');
+    })
+
+})
+
 // $('.btn_regis_popup, .btn-frm-srv').click(function(event) {
 //     $('body').addClass('modal-open-ov');
 // });

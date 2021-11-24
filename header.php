@@ -68,7 +68,12 @@
                         <div class="right"> 
                             <ul>
                                 <li><a href=""><a href="" class="notice-ring"><img src="images/ring.png" class="img-fluid" alt=""></a></a></li>
-                                <li><a href="" class="head-user"><img src="images/head-6.png" class="img-fluid" alt=""><span>Đăng ký / Đăng nhập</span></a></li>
+                                <li class="head-user">
+                                    <img src="images/head-6.png" class="img-fluid" alt="">
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-user-regis">Đăng ký</a>
+                                    <span>/</span>
+                                    <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-user-login">Đăng nhập</a>
+                                </li>
                                 <li><a href="" class="btn-head">Vườn kết nối</a></li>
                             </ul>
                         </div>
@@ -76,5 +81,139 @@
                 </div>
             </div>
         </div>
+
+        <div class="box-modal-user">
+            <div class="modal fade modal-srv" id="modal-user-login">
+                <div class="modal-dialog dialog-user">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-popup-user">
+                                <button type="button" class="close" data-dismiss="modal"><img src="images/close.png" class="img-fluid" alt=""></button>
+                                <h3 class="text-center">Đăng nhập</h3>
+                                <div class="form-modal-user">
+                                    <div class="item">
+                                        <label>Email</label>
+                                        <input type="text" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <label>Mật khẩu</label>
+                                        <input type="password" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <div class="fogot-acc text-right"><a href="javascript:void(0)" data-dismiss="modal" data-toggle="modal" data-target="#modal-user-fogot">Quên mật khẩu</a></div>
+                                    </div>
+                                    <div class="item text-center">
+                                        <input type="submit" value="Đăng nhập" class="btn_field">
+                                    </div>
+                                    <div class="item text-center">
+                                        <p><span>Bạn chưa có tài khoản? </span><a href="javascript:void(0)" data-dismiss="modal" data-toggle="modal" data-target="#modal-user-regis">Đăng ký tại đây</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-srv" id="modal-user-regis">
+                <div class="modal-dialog dialog-user">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-popup-user">
+                                <button type="button" class="close" data-dismiss="modal"><img src="images/close.png" class="img-fluid" alt=""></button>
+                                <h3 class="text-center">Đăng ký</h3>
+                                <div class="form-modal-user">
+                                    <div class="item">
+                                        <label>Họ và tên</label>
+                                        <input type="text" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <label>Email</label>
+                                        <input type="text" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <label>Số điện thoại</label>
+                                        <input type="text" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <label>Mật khẩu</label>
+                                        <input type="password" class="txt_field">
+                                    </div>
+                                    <div class="item">
+                                        <label>Nhập lại mật khẩu</label>
+                                        <input type="password" class="txt_field">
+                                    </div>
+                                    <div class="item text-center">
+                                        <input type="submit" value="Đăng ký" class="btn_field">
+                                    </div>
+                                    <div class="item text-center">
+                                        <p><span>Bạn đã có tài khoản? </span><a href="javascript:void(0)" data-dismiss="modal" data-toggle="modal" data-target="#modal-user-login">Đăng nhập tại đây</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-srv" id="modal-user-fogot">
+                <div class="modal-dialog dialog-user">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-popup-user">
+                                <button type="button" class="close" data-dismiss="modal"><img src="images/close.png" class="img-fluid" alt=""></button>
+                                <h3 class="text-center">Quên mật khẩu</h3>
+                                <div class="form-modal-user">
+                                    <div class="item">
+                                        <p class="txt_fogot">Vui lòng nhập lại Email đăng ký của bạn để cập nhật mật khẩu </p>
+                                    </div>
+                                    <div class="item">
+                                        <label>Email</label>
+                                        <input type="text" class="txt_field txt_mail_fogot" placeholder="Nhập email của bạn">
+                                        <img src="images/icon-fogot.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="item d-flex justify-content-between align-items-center">
+                                        <a href="javascript:void(0)" class="back_popup" data-dismiss="modal">
+                                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.170878 5.61415L6.00422 0.159759C6.232 -0.053259 6.60136 -0.053259 6.82918 0.159795C7.05695 0.372813 7.05695 0.718158 6.82914 0.931176L2.18945 5.26948C1.76676 5.66471 1.76676 6.3351 2.18943 6.73033L6.82918 11.0689C7.05695 11.2819 7.05695 11.6272 6.82914 11.8403C6.71527 11.9468 6.56598 12 6.41668 12C6.26739 12 6.11809 11.9468 6.00419 11.8402L0.170878 6.38553C0.0614444 6.28324 -4.16504e-07 6.14452 -4.2915e-07 5.99986C-4.41796e-07 5.85521 0.0614443 5.71644 0.170878 5.61415Z" fill="#666666"/>
+                                            </svg>
+                                            <span>Trở về</span>
+                                        </a>
+                                        <input type="submit" value="Tiếp tục" class="btn_field" style="min-width: 119px;height: 48px;"  data-dismiss="modal" data-toggle="modal" data-target="#modal-succ-fogot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade modal-srv" id="modal-succ-fogot">
+                <div class="modal-dialog dialog-user">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="modal-popup-user">
+                                <button type="button" class="close" data-dismiss="modal"><img src="images/close.png" class="img-fluid" alt=""></button>
+                                <h3 class="text-center">Yêu cầu đã được gửi</h3>
+                                <div class="form-modal-user">
+                                    <div class="item">
+                                        <p class="txt_fogot">Yêu cầu cài đặt lại mật khẩu đã được gửi đến email bạn đăng ký. Vui lòng kiểm tra hộp thư <strong>(bao gồm cả thư mục spam)</strong> của bạn nhé!</p>
+                                    </div>
+                                    <div class="item d-flex justify-content-between align-items-center">
+                                        <a href="javascript:void(0)" class="back_popup" data-dismiss="modal">
+                                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.170878 5.61415L6.00422 0.159759C6.232 -0.053259 6.60136 -0.053259 6.82918 0.159795C7.05695 0.372813 7.05695 0.718158 6.82914 0.931176L2.18945 5.26948C1.76676 5.66471 1.76676 6.3351 2.18943 6.73033L6.82918 11.0689C7.05695 11.2819 7.05695 11.6272 6.82914 11.8403C6.71527 11.9468 6.56598 12 6.41668 12C6.26739 12 6.11809 11.9468 6.00419 11.8402L0.170878 6.38553C0.0614444 6.28324 -4.16504e-07 6.14452 -4.2915e-07 5.99986C-4.41796e-07 5.85521 0.0614443 5.71644 0.170878 5.61415Z" fill="#666666"/>
+                                            </svg>
+                                            <span>Trở về</span>
+                                        </a>
+                                        <input type="submit" value="Gửi lại yêu cầu" class="btn_field" style="min-width: 151px;height: 48px;"  data-dismiss="modal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
     </header>
  
