@@ -47,39 +47,89 @@
                         <div class="left">
                             <ul>
                                 <li>
-                                    <div class="logo"><a href=""><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                                    <div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid" alt=""></a></div>
                                 </li>
-                                <li><a href="">Trang chủ</a></li>
-                                <li><a href="">Về chúng tôi</a></li>
+                                <li><a href="index.php">Trang chủ</a></li>
+                                <li><a href="about.php">Về chúng tôi</a></li>
                                 <li>
-                                    <a href="">Dịch vụ & sản phẩm <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
-                                    <!-- <div class="submenu">
+                                    <a href="service.php">Dịch vụ & sản phẩm <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
+                                    <div class="submenu">
                                         <ul>
                                             <li><a href="">Dịch vụ của Xoxo</a></li>
                                             <li><a href="">Sản phẩm của Xoxo</a></li>
                                         </ul>
-                                    </div> -->
+                                    </div>
                                 </li>
-                                <li><a href="">Tin tức <img src="images/ar-menu.png" class="img-fluid" alt=""></a></li>
+                                <li>
+                                    <a href="news.php">Tin tức <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
+                                    <div class="submenu">
+                                        <ul>
+                                            <li><a href="">Tin tức nhà Xoxo</a></li>
+                                            <li><a href="">Sự kiện nhà Xoxo</a></li>
+                                            <li><a href="">du an cong dong</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
                                 <li><a href="">Thư viện</a></li>
-                                <li><a href="">Liên hệ</a></li>
+                                <li><a href="contact.php">Liên hệ</a></li>
                             </ul>
                         </div>
                         <div class="right"> 
                             <ul>
-                                <li><a href=""><a href="" class="notice-ring"><img src="images/ring.png" class="img-fluid" alt=""></a></a></li>
+                                <li><a href="" class="notice-ring"><img src="images/ring.png" class="img-fluid" alt=""></a></li>
                                 <li class="head-user">
                                     <img src="images/head-6.png" class="img-fluid" alt="">
                                     <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-user-regis">Đăng ký</a>
                                     <span>/</span>
                                     <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-user-login">Đăng nhập</a>
                                 </li>
-                                <li><a href="" class="btn-head">Vườn kết nối</a></li>
+                                <li><a href="vuonketnoi.php" class="btn-head">Vườn kết nối</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="header-mobile" style="display: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <div class="btn-menu"><a href="#menu"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6 text-center">
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" class="img-fluid" alt=""></a></div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-3 text-right">
+                        <div class="user-menu-mob">
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-user-login"><i class="fa fa-user"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="about.php">Về chúng tôi</a></li>
+                    <li>
+                        <a href="service.php">Dịch vụ & sản phẩm <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
+                        <ul>
+                            <li><a href="">Dịch vụ của Xoxo</a></li>
+                            <li><a href="">Sản phẩm của Xoxo</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="news.php">Tin tức <img src="images/ar-menu.png" class="img-fluid" alt=""></a>
+                        <ul>
+                            <li><a href="">Tin tức nhà Xoxo</a></li>
+                            <li><a href="">Sự kiện nhà Xoxo</a></li>
+                            <li><a href="">du an cong dong</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Thư viện</a></li>
+                    <li><a href="contact.php">Liên hệ</a></li>
+                    <li><a href="vuonketnoi.php">Vườn kết nối</a></li>
+                </ul>
+            </nav>
         </div>
 
         <div class="box-modal-user">

@@ -52,29 +52,29 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-number" style="background: url('images/bn-numb.png') no-repeat center;background-size: coverf;">
+	<section class="box-number" style="background: url('images/bn-numb.png') no-repeat center;background-size: cover;">
 		<div class="container">
 			<div class="list-numb">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>12</span></div>
 							<div class="desc">Năm Kinh nghiệm</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>05</span></div>
 							<div class="desc">Cơ sở kinh doanh</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>182</span></div>
 							<div class="desc">Phòng học cao cấp</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>32</span></div>
 							<div class="desc">Học sinh</div>

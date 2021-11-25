@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header_user.php';?>
 <main>
 	<section class="box-account">
 		<div class="container">
@@ -18,9 +18,9 @@
 						 		<li>
 						 			<a href="javascript:void(0)" class="active" data-tab="tab-1">
 						 				<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<circle cx="8" cy="8" r="8" fill="#1BDAC9"/>
-											<path d="M7.99932 8.80002C9.76663 8.80002 11.1993 7.36734 11.1993 5.60002C11.1993 3.83271 9.76663 2.40002 7.99932 2.40002C6.23201 2.40002 4.79932 3.83271 4.79932 5.60002C4.79932 7.36734 6.23201 8.80002 7.99932 8.80002Z" fill="white"/>
-											<path fill-rule="evenodd" clip-rule="evenodd" d="M2.39551 11.8887C2.53122 11.554 2.6976 11.2308 2.8934 10.9235C3.48902 9.98859 4.33023 9.23535 5.32494 8.74609C6.08236 9.35398 7.0242 9.68569 7.99539 9.68652C8.9665 9.68587 9.90832 9.35444 10.6658 8.74683C11.6607 9.23562 12.5019 9.98864 13.0974 10.9235C13.2936 11.2315 13.4602 11.5555 13.5961 11.891C12.375 13.6655 10.3322 14.8308 8.01681 14.8375H7.97629C5.65996 14.8308 3.61642 13.6646 2.39551 11.8887Z" fill="white"/>
+											<circle cx="8" cy="8" r="8" fill="#22344A"/>
+											<path d="M7.99901 8.80004C9.76632 8.80004 11.199 7.36735 11.199 5.60004C11.199 3.83273 9.76632 2.40004 7.99901 2.40004C6.2317 2.40004 4.79901 3.83273 4.79901 5.60004C4.79901 7.36735 6.2317 8.80004 7.99901 8.80004Z" fill="white"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M2.39532 11.8888C2.53104 11.5541 2.69742 11.2309 2.89322 10.9236C3.48884 9.98866 4.33004 9.23542 5.32476 8.74617C6.08218 9.35406 7.02402 9.68576 7.99521 9.68659C8.96631 9.68595 9.90813 9.35452 10.6657 8.74691C11.6605 9.23569 12.5017 9.98872 13.0972 10.9236C13.2934 11.2316 13.46 11.5555 13.5959 11.8911C12.3748 13.6656 10.332 14.8309 8.01662 14.8376H7.97611C5.65978 14.8309 3.61623 13.6646 2.39532 11.8888Z" fill="white"/>
 										</svg>
 										<span>Thông tin tài khoản</span>
 						 			</a>
@@ -29,15 +29,16 @@
 						 			<a href="javascript:void(0)" data-tab="tab-2">
 						 				<svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<rect width="18.5714" height="13" rx="1" fill="#22344A"/>
-											<rect x="6.49951" y="1.85718" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
-											<circle cx="3.7147" cy="2.78575" r="0.928571" fill="white"/>
-											<rect x="6.49902" y="5.57153" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
-											<circle cx="3.71422" cy="6.5001" r="0.928571" fill="white"/>
-											<rect x="6.49902" y="9.28577" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
-											<circle cx="3.71422" cy="10.2143" r="0.928571" fill="white"/>
-											<rect x="6.49951" y="1.85718" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
-											<circle cx="3.7147" cy="2.78575" r="0.928571" fill="white"/>
+											<rect x="6.5" y="1.85718" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
+											<circle cx="3.71495" cy="2.78575" r="0.928571" fill="white"/>
+											<rect x="6.49951" y="5.57153" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
+											<circle cx="3.71446" cy="6.5001" r="0.928571" fill="white"/>
+											<rect x="6.49951" y="9.28577" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
+											<circle cx="3.71446" cy="10.2143" r="0.928571" fill="white"/>
+											<rect x="6.5" y="1.85718" width="10.2143" height="1.85714" rx="0.928571" fill="white"/>
+											<circle cx="3.71495" cy="2.78575" r="0.928571" fill="white"/>
 										</svg>
+
 										<span>Khóa học của tôi</span>
 						 			</a>
 						 		</li>
@@ -578,11 +579,11 @@
 									</t-body>
 								</table>
 							</div>
-							<div class="box-none-data text-center">
+							<!-- <div class="box-none-data text-center">
 								<div class="avr-none"><img src="images/none-3.png" class="img-fluid" alt=""></div>
 								<h4>Bạn chưa có ưu đãi nào!</h4>
 								<p>Tiếp tục tìm hiểu nhé!</p>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>

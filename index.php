@@ -102,29 +102,29 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-number" style="background: url('images/bn-numb.png') no-repeat center;background-size: coverf;">
+	<section class="box-number" style="background: url('images/bn-numb.png') no-repeat center;background-size: cover;">
 		<div class="container">
 			<div class="list-numb">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>12</span></div>
 							<div class="desc">Năm Kinh nghiệm</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>05</span></div>
 							<div class="desc">Cơ sở kinh doanh</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>182</span></div>
 							<div class="desc">Phòng học cao cấp</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-numb text-center">
 							<div class="numb"><span>32</span></div>
 							<div class="desc">Học sinh</div>
@@ -235,7 +235,7 @@
 			</div>
 			<div class="list-service">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-service">
 							<div class="avarta"><a href=""><img src="images/service.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -256,7 +256,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-service">
 							<div class="avarta"><a href=""><img src="images/service.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -277,7 +277,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-service">
 							<div class="avarta"><a href=""><img src="images/service.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -383,28 +383,28 @@
 			</div>
 			<div class="list-gall">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6 col-sm-3">
 						<div class="item-gall"><div class="avarta"><a href=""><img src="images/gall.png" class="img-fluid" alt=""></a></div></div>
 					</div>
 				</div>
@@ -548,7 +548,7 @@
 			</div>
 			<div class="list-news">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-news">
 							<div class="avarta"><a href=""><img src="images/new-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -561,7 +561,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-news">
 							<div class="avarta"><a href=""><img src="images/new-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">
@@ -574,7 +574,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-news">
 							<div class="avarta"><a href=""><img src="images/new-1.png" class="img-fluid w-100" alt=""></a></div>
 							<div class="info">

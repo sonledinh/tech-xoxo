@@ -18,6 +18,7 @@
 			<div class="list-connect">
 				<div class="content-connect">
 					<div class="item-connect">
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
@@ -42,7 +43,7 @@
 					 	</div>
 					</div>
 					<div class="item-connect">
-						<a href="" class="link-cnn"></a>
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
@@ -67,7 +68,7 @@
 					 	</div>
 					</div>
 					<div class="item-connect">
-						<a href="" class="link-cnn"></a>
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
@@ -92,7 +93,7 @@
 					 	</div>
 					</div>
 					<div class="item-connect">
-						<a href="" class="link-cnn"></a>
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
@@ -117,7 +118,7 @@
 					 	</div>
 					</div>
 					<div class="item-connect">
-						<a href="" class="link-cnn"></a>
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
@@ -142,7 +143,7 @@
 					 	</div>
 					</div>
 					<div class="item-connect">
-						<a href="" class="link-cnn"></a>
+						<a href="vuonketnoi-detail.php" class="link-cnn"></a>
 					 	<div class="top-conn">
 					 		<div class="left">
 					 			<div class="avr-cnn"><img src="images/vuon-1.png" class="img-fluid" alt=""></div>
