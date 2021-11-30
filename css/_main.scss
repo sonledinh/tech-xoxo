@@ -23,7 +23,7 @@
 	    	font-size: 26px;
     		font-weight: 600;
 	    }
-	    h2 {
+	    h2 { 
 	    	font-size: 48px; 
 		    font-weight: 700;
 		    line-height: initial;
@@ -813,6 +813,21 @@
 		    font-weight: 700;
 		}
 	}
+	.info-view {
+    	padding: 0 0 10px 0;
+    	a {
+    		display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    height: 55px;
+		    border: 1px solid;
+		    border-radius: 30px;
+		    font-size: 20px;
+		    span {
+		    	margin-right: 8px;
+		    }
+    	}
+    }
 	@media (max-width: 1024px) {
 		h3 {
 			a {

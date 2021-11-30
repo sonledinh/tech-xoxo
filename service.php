@@ -30,8 +30,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>
@@ -49,8 +57,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>
@@ -68,8 +84,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>
@@ -87,8 +111,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>
@@ -106,8 +138,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>
@@ -125,8 +165,16 @@
 									<li><img src="images/icon-less-2.png" class="img-fluid" alt=""><span>Thời gian:</span><strong>18h20 - 21h50 | 09h/3 buổi </strong></li>
 									<li><img src="images/icon-less-3.png" class="img-fluid" alt=""><span>Thời lượng:</span><strong>03 buổi ( 9h )</strong></li>
 								</ul>
+								<div class="info-view">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#modal-detail-srv">
+										<span>Xem chi tiết</span>
+										<svg width="15" height="10" viewBox="0 0 15 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.10755e-07 5.30151C4.35959e-07 5.01322 0.231276 4.77954 0.516615 4.77954L12.9574 4.77954L9.69854 1.48992C9.59942 1.38978 9.54836 1.25625 9.54836 1.12272C9.54836 0.989194 9.59942 0.855667 9.69854 0.755522C9.89978 0.552195 10.2272 0.552195 10.4284 0.755522L14.5613 4.93432C14.7536 5.12854 14.7536 5.47449 14.5613 5.67175L10.4254 9.84751C10.2242 10.0508 9.89677 10.0508 9.69553 9.84751C9.49429 9.64418 9.49429 9.3134 9.69553 9.11007L12.9514 5.82045L0.513611 5.82045C0.228272 5.82348 3.85551e-07 5.58981 4.10755e-07 5.30151Z" fill="#223441"/>
+										</svg>
+									</a>
+								</div>
 								<div class="btn-main text-center">
-									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-detail-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
+									<a href="javascript:void(0)"  data-toggle="modal" data-target="#modal-form-srv" style="width: 100%;"><img src="images/icon-btn.png" class="img-fluid" alt=""><span>Đăng ký ngay</span></a>
 								</div>
 							</div>
 						</div>

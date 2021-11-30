@@ -1216,6 +1216,18 @@ header .container {
     font-size: 20px;
     color: #FF000F;
     font-weight: 700; }
+  .item-less .info-view {
+    padding: 0 0 10px 0; }
+    .item-less .info-view a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 55px;
+      border: 1px solid;
+      border-radius: 30px;
+      font-size: 20px; }
+      .item-less .info-view a span {
+        margin-right: 8px; }
   @media (max-width: 1024px) {
     .item-less h3 a {
       font-size: 16px; } }
