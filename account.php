@@ -153,7 +153,25 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-5"></div>
+									<div class="col-md-5">
+										<div class="avatar-upload">
+									        <div class="avatar-edit">
+									            <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+									            
+									        </div>
+									        <div class="avatar-preview">
+									            <div id="imagePreview" style="background-image: url(images/upload.jpg);">
+									            </div>
+									        </div>
+									        <div class="clc-upload-inp text-center">
+									        	<label for="imageUpload"><span>Chọn ảnh</span></label>
+									        	<ul>
+									        		<li>Dụng lượng file tối đa 1 MB</li>
+									        		<li>Định dạng:.JPEG, .PNG</li>
+									        	</ul>
+									        </div>
+									    </div>
+									</div>
 								</div>
 							</div> 
 						</div>
